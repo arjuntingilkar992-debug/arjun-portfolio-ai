@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="Arjun Tingilkar — developer portfolio, projects, and contact.">
+  <title>Arjun Tingilkar — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Arjun home"><img class="brand-mark" src="assets/brand-image.jpe" alt="Arjun Tingilkar brand mark" /><span>ARJUN<span class="accent">.</span></span></a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#ai">AI Lab</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="top-cta" href="#contact">Let’s talk <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> DEVELOPER · BUILDER · CURIOUS MIND</p>
+        <h1>Ideas into<br><span class="outline">digital reality</span><span class="accent">.</span></h1>
+        <p class="hero-desc">Hi, I’m <strong>Arjun Tingilkar</strong>. I build useful digital experiences and explore how design, code, and AI can solve real problems.</p>
+        <div class="hero-actions"><a class="button button-primary magnetic" href="#work">Explore my work <span>↘</span></a><a class="button button-ghost magnetic" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN INDIA</span><span class="meta-line"></span><span>DESIGN · CODE · AI</span></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-card" id="tiltCard">
+          <div class="art-top"><span>ARJUN / PORTFOLIO</span><span class="live-pill">● BUILDING</span></div>
+          <div class="portrait-frame"><img src="assets/arjun-portrait.jpe" alt="Portrait of Arjun Tingilkar"></div>
+          <div class="art-bottom"><span>DEVELOPER<br>IN PROGRESS</span><span class="arrow-big">↗</span></div>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-icon">✳</span> Curious by default</div>
+        <div class="float-chip chip-bottom"><span class="chip-icon">↗</span> Always building</div>
+        <div class="hero-index">01 <span>/</span> 05</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="about section section-grid" id="about">
+      <div class="section-label reveal"><span>01 / ABOUT</span><span class="label-line"></span></div>
+      <div class="section-content reveal">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curious mind.<br><span class="muted">Builder’s mindset.</span></h2>
+        <div class="about-columns"><p>I’m Arjun Tingilkar, a developer interested in making clean, intuitive and practical digital products. I enjoy learning by building, experimenting with tools, and improving details through iteration.</p><p>This portfolio is a home for my projects, experiments, and future AI work. The project summaries below are editable starter descriptions—update them to match each product’s real features and status.</p></div>
+        <div class="stats"><div><strong>04<span></span></strong><small>PROJECT SPACES</small></div><div><strong>∞</strong><small>THINGS TO LEARN</small></div><div><strong>01<span>+</span></strong><small>STEP AT A TIME</small></div></div>
+      </div>
+    </section>
+
+    <section class="work section section-grid" id="work">
+      <div class="section-label reveal"><span>02 / SELECTED WORK</span><span class="label-line"></span></div>
+      <div class="section-content">
+        <div class="work-heading reveal"><div><p class="eyebrow">IDEAS MADE TANGIBLE</p><h2>Projects in<br><span class="muted">the making.</span></h2></div><span class="work-count">04 PROJECTS<br>EDITABLE CARDS</span></div>
+        <div class="project-list">
+          <article class="project-card reveal"><div class="project-visual visual-one"><div class="visual-art kebzo-art"><img class="kebzo-logo" src="assets/kebzo-wordmark-cropped.png" alt="Kebzo logo"></div><span class="visual-number">01</span></div><div class="project-info"><div><p class="project-type">PROJECT · UPDATE DETAILS</p><h3>Kebzo</h3><p class="project-desc">A project space for Kebzo. Replace this starter description with the product’s purpose, key features, and current status.</p><div class="tags"><span>Product</span><span>Development</span><span>In progress</span></div></div><a class="project-link" href="#contact" aria-label="Ask about Kebzo">↗</a></div></article>
+          <article class="project-card reveal"><div class="project-visual visual-four"><div class="visual-art portfolio-art"><span>A<span>.</span></span><small>PERSONAL PORTFOLIO</small></div><span class="visual-number">02</span></div><div class="project-info"><div><p class="project-type">WEB DEVELOPMENT</p><h3>Portfolio</h3><p class="project-desc">A responsive personal website with interactive cursor effects, project cards, contact links, and a future-ready AI backend.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div></div><a class="project-link" href="#home" aria-label="Back to portfolio home">↗</a></div></article>
+          <article class="project-card reveal"><div class="project-visual visual-three"><div class="visual-art washgo-art"><span>Wash<span>Go</span></span><i>◌</i></div><span class="visual-number">03</span></div><div class="project-info"><div><p class="project-type">PROJECT · UPDATE DETAILS</p><h3>WashGo</h3><p class="project-desc">A project card for WashGo. Update this text with its real workflow, target users, and technologies.</p><div class="tags"><span>Service</span><span>Web / App</span><span>Building</span></div></div><a class="project-link" href="#contact" aria-label="Ask about WashGo">↗</a></div></article>
+          <article class="project-card reveal"><div class="project-visual visual-two"><div class="visual-art hela-art"><span>hela</span><i>✳</i></div><span class="visual-number">04</span></div><div class="project-info"><div><p class="project-type">PROJECT · UPDATE DETAILS</p><h3>Hela</h3><p class="project-desc">A showcase space for Hela. Add a short explanation of the problem it solves and what you personally built.</p><div class="tags"><span>Concept</span><span>UI / UX</span><span>Development</span></div></div><a class="project-link" href="#contact" aria-label="Ask about Hela">↗</a></div></article>
+        </div>
+        <p class="project-note">Project descriptions are editable starter copy. Make sure they accurately describe your work before publishing.</p>
+      </div>
+    </section>
+
+    <section class="skills section section-grid" id="skills">
+      <div class="section-label reveal"><span>03 / TOOLKIT</span><span class="label-line"></span></div>
+      <div class="section-content reveal"><p class="eyebrow">TOOLS & APPROACH</p><h2>My growing<br><span class="muted">toolkit.</span></h2><p class="skills-intro">Edit these items to reflect the technologies you know and can confidently discuss.</p>
+        <div class="skill-grid">
+          <div class="skill-item"><span class="skill-symbol">⌘</span><div><strong>HTML & CSS</strong><small>Structure · Layout · Responsive design</small></div><span class="skill-arrow">↗</span></div>
+          <div class="skill-item"><span class="skill-symbol">JS</span><div><strong>JavaScript</strong><small>Interactions · DOM · Browser APIs</small></div><span class="skill-arrow">↗</span></div>
+          <div class="skill-item"><span class="skill-symbol">Py</span><div><strong>Python</strong><small>Backend · APIs · Automation</small></div><span class="skill-arrow">↗</span></div>
+          <div class="skill-item"><span class="skill-symbol">AI</span><div><strong>AI Integration</strong><small>API-based assistant · Future expansion</small></div><span class="skill-arrow">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-section section section-grid" id="ai">
+      <div class="section-label reveal"><span>04 / AI LAB</span><span class="label-line"></span></div>
+      <div class="section-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> FUTURE-READY · API CONFIGURATION SEPARATE</p>
+        <h2>A little AI.<br><span class="muted">More possibilities.</span></h2>
+        <p class="skills-intro">The Python backend is included as a starter. Add your provider API key to the backend <code>.env</code> file, never to frontend JavaScript. Start the backend to enable the assistant.</p>
+        <div class="chat-panel">
+          <div class="chat-head"><span class="chat-led"></span><strong>ARJUN AI</strong><span class="chat-state" id="aiStatus">BACKEND NOT CHECKED</span></div>
+          <div class="chat-log" id="chatLog" aria-live="polite"><div class="chat-bubble assistant">Hey! I’m the portfolio AI interface. Connect a provider in the Python backend to start chatting.</div></div>
+          <form class="chat-form" id="chatForm"><input id="chatInput" type="text" placeholder="Ask something..." autocomplete="off" maxlength="2000" aria-label="Message to AI"><button class="button button-primary" type="submit">Send ↗</button></form>
+          <p class="chat-note">Do not put private API keys in this HTML file. Configure them in <code>backend/.env</code>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section section-grid" id="contact">
+      <div class="section-label reveal"><span>05 / CONTACT</span><span class="label-line"></span></div>
+      <div class="section-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO GOOD IDEAS</p><h2>Let’s make<br><span class="muted">something matter.</span></h2>
+        <p class="contact-desc">Have a project, collaboration, or opportunity in mind? Send me a message.</p>
+        <div class="contact-actions"><a class="button button-primary magnetic" href="mailto:arjuntingilkar992@gmail.com?subject=Hello%20Arjun&body=Hi%20Arjun%2C%0A%0A" id="emailLink">Email me <span>↗</span></a><a class="button button-ghost magnetic" href="https://wa.me/919392424428" target="_blank" rel="noopener noreferrer">WhatsApp me <span>↗</span></a><button class="button button-ghost" id="copyEmail" type="button">Copy email <span>⧉</span></button></div>
+        <div class="contact-details"><div><small>EMAIL</small><a href="mailto:arjuntingilkar992@gmail.com">arjuntingilkar992@gmail.com</a></div><div><small>PHONE / WHATSAPP</small><a href="https://wa.me/919392424428" target="_blank" rel="noopener noreferrer">+91 93924 24428 ↗</a></div><div><small>SOCIALS</small><span class="social-placeholder">GitHub and LinkedIn links will be added later.</span></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">A</span><span>ARJUN<span class="accent">.</span></span></a><span>BUILT WITH CURIOSITY · 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
